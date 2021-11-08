@@ -1,5 +1,4 @@
-#git clone https://github.com/abrother94/C_Note.git
+#!/bin/bash
 git add *
-git add -u :/
-git commit -m ''
-git push -u origin master
+git commit -m "$1" 
+git push 
