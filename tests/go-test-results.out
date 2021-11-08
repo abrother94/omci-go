@@ -1,0 +1,675 @@
+=== RUN   TestGetAllAlarmsRequestDecode
+--- PASS: TestGetAllAlarmsRequestDecode (0.00s)
+=== RUN   TestGetAllAlarmsRequestDecodeExtended
+--- PASS: TestGetAllAlarmsRequestDecodeExtended (0.00s)
+=== RUN   TestGetAllAlarmsRequestSerialize
+--- PASS: TestGetAllAlarmsRequestSerialize (0.00s)
+=== RUN   TestGetAllAlarmsRequestSerializeExtended
+--- PASS: TestGetAllAlarmsRequestSerializeExtended (0.00s)
+=== RUN   TestGetAllAlarmsResponseDecode
+--- PASS: TestGetAllAlarmsResponseDecode (0.00s)
+=== RUN   TestGetAllAlarmsResponseDecodeExtended
+--- PASS: TestGetAllAlarmsResponseDecodeExtended (0.00s)
+=== RUN   TestGetAllAlarmsResponseSerialize
+--- PASS: TestGetAllAlarmsResponseSerialize (0.00s)
+=== RUN   TestGetAllAlarmsResponseSerializeExtended
+--- PASS: TestGetAllAlarmsResponseSerializeExtended (0.00s)
+=== RUN   TestGetAllAlarmsNextRequestDecode
+--- PASS: TestGetAllAlarmsNextRequestDecode (0.00s)
+=== RUN   TestGetAllAlarmsNextRequestDecodeExtended
+--- PASS: TestGetAllAlarmsNextRequestDecodeExtended (0.00s)
+=== RUN   TestGetAllAlarmsNextRequestSerialize
+--- PASS: TestGetAllAlarmsNextRequestSerialize (0.00s)
+=== RUN   TestGetAllAlarmsNextRequestSerializeExtended
+--- PASS: TestGetAllAlarmsNextRequestSerializeExtended (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseDecode
+--- PASS: TestGetAllAlarmsNextResponseDecode (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseDecodeExtended
+--- PASS: TestGetAllAlarmsNextResponseDecodeExtended (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseDecodeExtendedTwoBitmaps
+--- PASS: TestGetAllAlarmsNextResponseDecodeExtendedTwoBitmaps (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseSerialize
+--- PASS: TestGetAllAlarmsNextResponseSerialize (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseSerializeExtended
+--- PASS: TestGetAllAlarmsNextResponseSerializeExtended (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseSerializeExtendedTwoBitmaps
+--- PASS: TestGetAllAlarmsNextResponseSerializeExtendedTwoBitmaps (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseBadCommandNumberDecode
+--- PASS: TestGetAllAlarmsNextResponseBadCommandNumberDecode (0.00s)
+=== RUN   TestGetAllAlarmsNextResponseBadCommandNumberSerialize
+--- PASS: TestGetAllAlarmsNextResponseBadCommandNumberSerialize (0.00s)
+=== RUN   TestAlarmNotificationDecode
+--- PASS: TestAlarmNotificationDecode (0.00s)
+=== RUN   TestInvalidClassAlarmNotificationDecode
+--- PASS: TestInvalidClassAlarmNotificationDecode (0.00s)
+=== RUN   TestUnknownsMeAlarmNotificationDecode
+--- PASS: TestUnknownsMeAlarmNotificationDecode (0.00s)
+=== RUN   TestVendorSpecificAlarmNotificationDecode
+--- PASS: TestVendorSpecificAlarmNotificationDecode (0.00s)
+=== RUN   TestAlarmNotificationSerialize
+--- PASS: TestAlarmNotificationSerialize (0.00s)
+=== RUN   TestAlarmNotificationSerializeNonZeroTIC
+--- PASS: TestAlarmNotificationSerializeNonZeroTIC (0.00s)
+=== RUN   TestExtendedAlarmNotificationDecode
+--- PASS: TestExtendedAlarmNotificationDecode (0.00s)
+=== RUN   TestExtendedAlarmNotificationSerialize
+--- PASS: TestExtendedAlarmNotificationSerialize (0.00s)
+=== RUN   TestAlarmDecodesOmciLayerHeaderTooSmall
+--- PASS: TestAlarmDecodesOmciLayerHeaderTooSmall (0.00s)
+=== RUN   TestAttributeValueChangeDecode
+--- PASS: TestAttributeValueChangeDecode (0.00s)
+=== RUN   TestAttributeValueChangeSerialize
+--- PASS: TestAttributeValueChangeSerialize (0.00s)
+=== RUN   TestAttributeValueChangeNonZeroTicSerialize
+--- PASS: TestAttributeValueChangeNonZeroTicSerialize (0.00s)
+=== RUN   TestExtendedAttributeValueChangeDecode
+--- PASS: TestExtendedAttributeValueChangeDecode (0.00s)
+=== RUN   TestExtendedAttributeValueChangeSerialize
+--- PASS: TestExtendedAttributeValueChangeSerialize (0.00s)
+=== RUN   TestCreateRequestDecode
+--- PASS: TestCreateRequestDecode (0.00s)
+=== RUN   TestCreateRequestSerialize
+--- PASS: TestCreateRequestSerialize (0.00s)
+=== RUN   TestCreateRequestZeroTICSerialize
+--- PASS: TestCreateRequestZeroTICSerialize (0.00s)
+=== RUN   TestCreateResponseDecode
+--- PASS: TestCreateResponseDecode (0.00s)
+=== RUN   TestCreateResponseSerialize
+--- PASS: TestCreateResponseSerialize (0.00s)
+=== RUN   TestCreateResponseZeroTICSerialize
+--- PASS: TestCreateResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedCreateRequestDecode
+--- PASS: TestExtendedCreateRequestDecode (0.00s)
+=== RUN   TestExtendedCreateRequestSerialize
+--- PASS: TestExtendedCreateRequestSerialize (0.00s)
+=== RUN   TestExtendedCreateResponseDecode
+--- PASS: TestExtendedCreateResponseDecode (0.00s)
+=== RUN   TestExtendedCreateResponseSerialize
+--- PASS: TestExtendedCreateResponseSerialize (0.00s)
+=== RUN   TestCreate8021pMapperService_profile
+--- PASS: TestCreate8021pMapperService_profile (0.00s)
+=== RUN   TestCreateGalEthernetProfile
+--- PASS: TestCreateGalEthernetProfile (0.00s)
+=== RUN   TestCreate_macBridgeService_profile
+--- PASS: TestCreate_macBridgeService_profile (0.00s)
+=== RUN   TestCreateGemPortNetworkCtp
+--- PASS: TestCreateGemPortNetworkCtp (0.00s)
+=== RUN   TestCreateMulticastOperationsProfileMe
+--- PASS: TestCreateMulticastOperationsProfileMe (0.00s)
+=== RUN   TestDeleteRequestDecode
+--- PASS: TestDeleteRequestDecode (0.00s)
+=== RUN   TestDeleteRequestSerialize
+--- PASS: TestDeleteRequestSerialize (0.00s)
+=== RUN   TestDeleteRequestZeroTICSerialize
+--- PASS: TestDeleteRequestZeroTICSerialize (0.00s)
+=== RUN   TestDeleteResponseDecode
+--- PASS: TestDeleteResponseDecode (0.00s)
+=== RUN   TestDeleteResponseSerialize
+--- PASS: TestDeleteResponseSerialize (0.00s)
+=== RUN   TestDeleteResponseZeroTICSerialize
+--- PASS: TestDeleteResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedDeleteRequestDecode
+--- PASS: TestExtendedDeleteRequestDecode (0.00s)
+=== RUN   TestExtendedDeleteRequestSerialize
+--- PASS: TestExtendedDeleteRequestSerialize (0.00s)
+=== RUN   TestExtendedDeleteResponseDecode
+--- PASS: TestExtendedDeleteResponseDecode (0.00s)
+=== RUN   TestExtendedDeleteResponseSerialize
+--- PASS: TestExtendedDeleteResponseSerialize (0.00s)
+=== RUN   TestGetRequestDecode
+--- PASS: TestGetRequestDecode (0.00s)
+=== RUN   TestGetRequestSerialize
+--- PASS: TestGetRequestSerialize (0.00s)
+=== RUN   TestGetRequestZeroTICSerialize
+--- PASS: TestGetRequestZeroTICSerialize (0.00s)
+=== RUN   TestGetResponseDecode
+--- PASS: TestGetResponseDecode (0.00s)
+=== RUN   TestGetResponseSerialize
+--- PASS: TestGetResponseSerialize (0.00s)
+=== RUN   TestGetResponseZeroTICSerialize
+--- PASS: TestGetResponseZeroTICSerialize (0.00s)
+=== RUN   TestGetResponseSerializeTruncationFailure
+--- PASS: TestGetResponseSerializeTruncationFailure (0.00s)
+=== RUN   TestGetResponseSerializeTruncationButOkay
+--- PASS: TestGetResponseSerializeTruncationButOkay (0.00s)
+=== RUN   TestGetResponseTableFailedAttributesDecode
+--- PASS: TestGetResponseTableFailedAttributesDecode (0.00s)
+=== RUN   TestGetResponseTableFailedAttributesSerialize
+--- PASS: TestGetResponseTableFailedAttributesSerialize (0.00s)
+=== RUN   TestGetResponseTableAttributeDecode
+--- PASS: TestGetResponseTableAttributeDecode (0.00s)
+=== RUN   TestGetResponseTableAttributeSerialize
+--- PASS: TestGetResponseTableAttributeSerialize (0.00s)
+=== RUN   TestExtendedGetRequestDecode
+--- PASS: TestExtendedGetRequestDecode (0.00s)
+=== RUN   TestExtendedGetRequestDecodeTruncated
+--- PASS: TestExtendedGetRequestDecodeTruncated (0.00s)
+=== RUN   TestExtendedGetRequestSerialize
+--- PASS: TestExtendedGetRequestSerialize (0.00s)
+=== RUN   TestExtendedGetResponseDecode
+--- PASS: TestExtendedGetResponseDecode (0.00s)
+=== RUN   TestExtendedGetResponseSerialize
+--- PASS: TestExtendedGetResponseSerialize (0.00s)
+=== RUN   TestGetCurrentDataRequestDecode
+--- PASS: TestGetCurrentDataRequestDecode (0.00s)
+=== RUN   TestGetCurrentDataRequestSerialize
+--- PASS: TestGetCurrentDataRequestSerialize (0.00s)
+=== RUN   TestGetCurrentDataRequestZeroTICSerialize
+--- PASS: TestGetCurrentDataRequestZeroTICSerialize (0.00s)
+=== RUN   TestGetCurrentDataResponseDecode
+--- PASS: TestGetCurrentDataResponseDecode (0.00s)
+=== RUN   TestGetCurrentDataResponseSerialize
+--- PASS: TestGetCurrentDataResponseSerialize (0.00s)
+=== RUN   TestGetCurrentDataResponseZeroTICSerialize
+--- PASS: TestGetCurrentDataResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedGetCurrentDataRequestDecode
+--- PASS: TestExtendedGetCurrentDataRequestDecode (0.00s)
+=== RUN   TestExtendedGetCurrentDataRequestSerialize
+--- PASS: TestExtendedGetCurrentDataRequestSerialize (0.00s)
+=== RUN   TestExtendedGetCurrentDataResponseDecode
+--- PASS: TestExtendedGetCurrentDataResponseDecode (0.00s)
+=== RUN   TestExtendedGetCurrentDataResponseSerialize
+--- PASS: TestExtendedGetCurrentDataResponseSerialize (0.00s)
+=== RUN   TestGetNextRequestDecode
+--- PASS: TestGetNextRequestDecode (0.00s)
+=== RUN   TestGetNextRequestDecodeExtended
+--- PASS: TestGetNextRequestDecodeExtended (0.00s)
+=== RUN   TestGetNextRequestSerialize
+--- PASS: TestGetNextRequestSerialize (0.00s)
+=== RUN   TestGetNextRequestZeroTICSerialize
+--- PASS: TestGetNextRequestZeroTICSerialize (0.00s)
+=== RUN   TestGetNextRequestSerializeExtended
+--- PASS: TestGetNextRequestSerializeExtended (0.00s)
+=== RUN   TestGetNextResponseDecode
+--- PASS: TestGetNextResponseDecode (0.00s)
+=== RUN   TestGetNextResponseDecodeExtended
+--- PASS: TestGetNextResponseDecodeExtended (0.00s)
+=== RUN   TestGetNextResponseSerialize
+--- PASS: TestGetNextResponseSerialize (0.00s)
+=== RUN   TestGetNextResponseZeroTICSerialize
+--- PASS: TestGetNextResponseZeroTICSerialize (0.00s)
+=== RUN   TestGetNextResponseSerializeExtended
+--- PASS: TestGetNextResponseSerializeExtended (0.00s)
+=== RUN   TestKnownMessageType
+--- PASS: TestKnownMessageType (0.00s)
+=== RUN   TestUnknownMessageType
+--- PASS: TestUnknownMessageType (0.00s)
+=== RUN   TestNextIsNil
+--- PASS: TestNextIsNil (0.00s)
+=== RUN   TestPayloadAlwaysNil
+--- PASS: TestPayloadAlwaysNil (0.00s)
+=== RUN   TestMsgCanBeDecoded
+--- PASS: TestMsgCanBeDecoded (0.00s)
+=== RUN   TestDecodesFrameNoTrailer
+--- PASS: TestDecodesFrameNoTrailer (0.00s)
+=== RUN   TestDecodesFrameTooSmall
+--- PASS: TestDecodesFrameTooSmall (0.00s)
+=== RUN   TestFrameWithUnknownMessageType
+--- PASS: TestFrameWithUnknownMessageType (0.00s)
+=== RUN   TestMsgTypeStrings
+--- PASS: TestMsgTypeStrings (0.00s)
+=== RUN   TestMessageTypeStrings
+--- PASS: TestMessageTypeStrings (0.00s)
+=== RUN   TestResultsStrings
+--- PASS: TestResultsStrings (0.00s)
+=== RUN   TestOmciDecode
+--- PASS: TestOmciDecode (0.00s)
+=== RUN   TestOmciSerialization
+--- PASS: TestOmciSerialization (0.00s)
+=== RUN   TestGetSoftwareImageResponseDecode
+--- PASS: TestGetSoftwareImageResponseDecode (0.00s)
+=== RUN   TestGetSoftwareImageResponseSerialize
+--- PASS: TestGetSoftwareImageResponseSerialize (0.00s)
+=== RUN   TestMibResetRequestDecode
+--- PASS: TestMibResetRequestDecode (0.00s)
+=== RUN   TestMibResetRequestSerialize
+--- PASS: TestMibResetRequestSerialize (0.00s)
+=== RUN   TestMibResetRequestZeroTICSerialize
+--- PASS: TestMibResetRequestZeroTICSerialize (0.00s)
+=== RUN   TestMibResetResponseDecode
+--- PASS: TestMibResetResponseDecode (0.00s)
+=== RUN   TestMibResetResponseSerialize
+--- PASS: TestMibResetResponseSerialize (0.00s)
+=== RUN   TestMibResetResponseZeroTICSerialize
+--- PASS: TestMibResetResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedMibResetRequestDecode
+--- PASS: TestExtendedMibResetRequestDecode (0.00s)
+=== RUN   TestExtendedMibResetRequestSerialize
+--- PASS: TestExtendedMibResetRequestSerialize (0.00s)
+=== RUN   TestExtendedMibResetResponseDecode
+--- PASS: TestExtendedMibResetResponseDecode (0.00s)
+=== RUN   TestExtendedMibResetResponseSerialize
+--- PASS: TestExtendedMibResetResponseSerialize (0.00s)
+=== RUN   TestMibResetRequestMessage
+--- PASS: TestMibResetRequestMessage (0.00s)
+=== RUN   TestMibUploadRequestDecode
+--- PASS: TestMibUploadRequestDecode (0.00s)
+=== RUN   TestMibUploadRequestDecodeExtended
+--- PASS: TestMibUploadRequestDecodeExtended (0.00s)
+=== RUN   TestMibUploadRequestSerialize
+--- PASS: TestMibUploadRequestSerialize (0.00s)
+=== RUN   TestMibUploadRequestZeroTICSerialize
+--- PASS: TestMibUploadRequestZeroTICSerialize (0.00s)
+=== RUN   TestMibUploadRequestSerializeExtended
+--- PASS: TestMibUploadRequestSerializeExtended (0.00s)
+=== RUN   TestMibUploadResponseDecode
+--- PASS: TestMibUploadResponseDecode (0.00s)
+=== RUN   TestMibUploadResponseDecodeExtended
+--- PASS: TestMibUploadResponseDecodeExtended (0.00s)
+=== RUN   TestMibUploadResponseSerialize
+--- PASS: TestMibUploadResponseSerialize (0.00s)
+=== RUN   TestMibUploadResponseZeroTICSerialize
+--- PASS: TestMibUploadResponseZeroTICSerialize (0.00s)
+=== RUN   TestMibUploadResponseSerializeExtended
+--- PASS: TestMibUploadResponseSerializeExtended (0.00s)
+=== RUN   TestMibUploadNextRequestDecode
+--- PASS: TestMibUploadNextRequestDecode (0.00s)
+=== RUN   TestMibUploadNextRequestDecodeExtended
+--- PASS: TestMibUploadNextRequestDecodeExtended (0.00s)
+=== RUN   TestMibUploadNextRequestSerialize
+--- PASS: TestMibUploadNextRequestSerialize (0.00s)
+=== RUN   TestMibUploadNextRequestZeroTICSerialize
+--- PASS: TestMibUploadNextRequestZeroTICSerialize (0.00s)
+=== RUN   TestMibUploadNextRequestSerializeExtended
+--- PASS: TestMibUploadNextRequestSerializeExtended (0.00s)
+=== RUN   TestMibUploadNextResponseDecode
+--- PASS: TestMibUploadNextResponseDecode (0.00s)
+=== RUN   TestMibUploadNextResponseDecodeExtendedOneMe
+--- PASS: TestMibUploadNextResponseDecodeExtendedOneMe (0.00s)
+=== RUN   TestMibUploadNextResponseDecodeExtendedThreeMe
+--- PASS: TestMibUploadNextResponseDecodeExtendedThreeMe (0.00s)
+=== RUN   TestMibUploadNextResponseDecodeExtendedMaxLength
+--- PASS: TestMibUploadNextResponseDecodeExtendedMaxLength (0.01s)
+=== RUN   TestMibUploadNextResponseSerialize
+--- PASS: TestMibUploadNextResponseSerialize (0.00s)
+=== RUN   TestMibUploadNextResponseZeroTICSerialize
+--- PASS: TestMibUploadNextResponseZeroTICSerialize (0.00s)
+=== RUN   TestMibUploadNextResponseSerializeExtendedOneMe
+--- PASS: TestMibUploadNextResponseSerializeExtendedOneMe (0.00s)
+=== RUN   TestMibUploadNextResponseSerializeExtendedTwoMe
+--- PASS: TestMibUploadNextResponseSerializeExtendedTwoMe (0.00s)
+=== RUN   TestMibUploadNextResponseSerializeExtendedThreeMe
+--- PASS: TestMibUploadNextResponseSerializeExtendedThreeMe (0.00s)
+=== RUN   TestMibUploadNextResponseSerializeExtendedMaxFrame
+--- PASS: TestMibUploadNextResponseSerializeExtendedMaxFrame (0.01s)
+=== RUN   TestMibUploadNextResponseSerializeExtendedMaxFramePlusOneByteTooMany
+--- PASS: TestMibUploadNextResponseSerializeExtendedMaxFramePlusOneByteTooMany (0.01s)
+=== RUN   TestMibUploadNextResponseBadCommandNumberDecode
+--- PASS: TestMibUploadNextResponseBadCommandNumberDecode (0.00s)
+=== RUN   TestMibUploadNextResponseBadCommandNumberSerialize
+--- PASS: TestMibUploadNextResponseBadCommandNumberSerialize (0.00s)
+=== RUN   TestMibUploadNextSequence
+--- PASS: TestMibUploadNextSequence (0.01s)
+=== RUN   TestUnsupportedG988ClassIDMibUploadNextResponse
+--- PASS: TestUnsupportedG988ClassIDMibUploadNextResponse (0.00s)
+=== RUN   TestUnsupportedG988ClassIDMibUploadNextResponseAttributes
+--- PASS: TestUnsupportedG988ClassIDMibUploadNextResponseAttributes (0.00s)
+=== RUN   TestUnsupportedVendorClassIDMibUploadNextResponse
+--- PASS: TestUnsupportedVendorClassIDMibUploadNextResponse (0.00s)
+=== RUN   TestMibUpload
+--- PASS: TestMibUpload (0.00s)
+=== RUN   TestDeviceIdents
+--- PASS: TestDeviceIdents (0.00s)
+=== RUN   TestOmciCanDecodeAndNextLayer
+--- PASS: TestOmciCanDecodeAndNextLayer (0.00s)
+=== RUN   TestOmciHeaderVeryShort
+--- PASS: TestOmciHeaderVeryShort (0.00s)
+=== RUN   TestOmciHeaderBaselineShort
+--- PASS: TestOmciHeaderBaselineShort (0.00s)
+=== RUN   TestOmciHeaderExtendedShort
+--- PASS: TestOmciHeaderExtendedShort (0.00s)
+=== RUN   TestBad2017_G_988
+--- PASS: TestBad2017_G_988 (0.00s)
+=== RUN   TestBaselineBadLenSerialize
+--- PASS: TestBaselineBadLenSerialize (0.00s)
+=== RUN   TestBadIdentSerialize
+--- PASS: TestBadIdentSerialize (0.00s)
+=== RUN   TestRebootRequestDecode
+--- PASS: TestRebootRequestDecode (0.00s)
+=== RUN   TestRebootRequestSerialize
+--- PASS: TestRebootRequestSerialize (0.00s)
+=== RUN   TestRebootRequestZeroTICSerialize
+--- PASS: TestRebootRequestZeroTICSerialize (0.00s)
+=== RUN   TestRebootResponseDecode
+--- PASS: TestRebootResponseDecode (0.00s)
+=== RUN   TestRebootResponseSerialize
+--- PASS: TestRebootResponseSerialize (0.00s)
+=== RUN   TestRebootResponseZeroTICSerialize
+--- PASS: TestRebootResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedRebootRequestDecode
+--- PASS: TestExtendedRebootRequestDecode (0.00s)
+=== RUN   TestExtendedRebootRequestSerialize
+--- PASS: TestExtendedRebootRequestSerialize (0.00s)
+=== RUN   TestExtendedRebootResponseDecode
+--- PASS: TestExtendedRebootResponseDecode (0.00s)
+=== RUN   TestExtendedRebootResponseSerialize
+--- PASS: TestExtendedRebootResponseSerialize (0.00s)
+=== RUN   TestOnuRebootRequest
+--- PASS: TestOnuRebootRequest (0.00s)
+=== RUN   TestSetRequestDecode
+--- PASS: TestSetRequestDecode (0.00s)
+=== RUN   TestSetRequestSerialize
+--- PASS: TestSetRequestSerialize (0.00s)
+=== RUN   TestSetRequestZeroTICSerialize
+--- PASS: TestSetRequestZeroTICSerialize (0.00s)
+=== RUN   TestSetResponseDecode
+--- PASS: TestSetResponseDecode (0.00s)
+=== RUN   TestSetResponseSerialize
+--- PASS: TestSetResponseSerialize (0.00s)
+=== RUN   TestSetResponseZeroTICSerialize
+--- PASS: TestSetResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedSetRequestDecode
+--- PASS: TestExtendedSetRequestDecode (0.00s)
+=== RUN   TestExtendedSetRequestSerialize
+--- PASS: TestExtendedSetRequestSerialize (0.00s)
+=== RUN   TestExtendedSetResponseDecode
+--- PASS: TestExtendedSetResponseDecode (0.00s)
+=== RUN   TestExtendedSetResponseSerialize
+--- PASS: TestExtendedSetResponseSerialize (0.00s)
+=== RUN   TestSetResponseTableFailedAttributesDecode
+--- PASS: TestSetResponseTableFailedAttributesDecode (0.00s)
+=== RUN   TestSetResponseTableFailedAttributesSerialize
+--- PASS: TestSetResponseTableFailedAttributesSerialize (0.00s)
+=== RUN   TestSetTCont
+--- PASS: TestSetTCont (0.00s)
+=== RUN   TestSet8021pMapperServiceProfile
+--- PASS: TestSet8021pMapperServiceProfile (0.00s)
+=== RUN   TestSetTableRequestDecode
+--- PASS: TestSetTableRequestDecode (0.00s)
+=== RUN   TestSetTableRequestDecodeZeroRows
+--- PASS: TestSetTableRequestDecodeZeroRows (0.00s)
+=== RUN   TestSetTableRequestDecodeMultipleRows
+--- PASS: TestSetTableRequestDecodeMultipleRows (0.00s)
+=== RUN   TestSetTableRequestDecodeTruncatedRow
+--- PASS: TestSetTableRequestDecodeTruncatedRow (0.00s)
+=== RUN   TestSetTableRequestDecodeOneAttributeOnly
+--- PASS: TestSetTableRequestDecodeOneAttributeOnly (0.00s)
+=== RUN   TestSetTableRequestDecodeTableAttributesOnly
+--- PASS: TestSetTableRequestDecodeTableAttributesOnly (0.00s)
+=== RUN   TestSetTableRequestDecodeMeNotSupported
+--- PASS: TestSetTableRequestDecodeMeNotSupported (0.00s)
+=== RUN   TestSetTableRequestDecodeTableWritableOnly
+--- PASS: TestSetTableRequestDecodeTableWritableOnly (0.00s)
+=== RUN   TestSetTableRequestDecodeBaselineNotSupported
+--- PASS: TestSetTableRequestDecodeBaselineNotSupported (0.02s)
+=== RUN   TestSetTableRequestSerialize
+--- PASS: TestSetTableRequestSerialize (0.00s)
+=== RUN   TestSetTableRequestZeroTICSerialize
+--- PASS: TestSetTableRequestZeroTICSerialize (0.00s)
+=== RUN   TestSetTableRequestSerializeZeroRows
+--- PASS: TestSetTableRequestSerializeZeroRows (0.00s)
+=== RUN   TestSetTableRequestSerializeMultipleRows
+--- PASS: TestSetTableRequestSerializeMultipleRows (0.00s)
+=== RUN   TestSetTableRequestSerializeTruncatedRow
+--- PASS: TestSetTableRequestSerializeTruncatedRow (0.00s)
+=== RUN   TestSetTableRequestSerializeOneAttributeOnly
+--- PASS: TestSetTableRequestSerializeOneAttributeOnly (0.00s)
+=== RUN   TestSetTableRequestSerializeTableAttributesOnly
+--- PASS: TestSetTableRequestSerializeTableAttributesOnly (0.00s)
+=== RUN   TestSetTableRequestSerializeTableWritableOnly
+--- PASS: TestSetTableRequestSerializeTableWritableOnly (0.00s)
+=== RUN   TestSetTableRequestSerializeBaselineNotSupported
+--- PASS: TestSetTableRequestSerializeBaselineNotSupported (0.00s)
+=== RUN   TestSetTableRequestSerializeBaselineManageEntityNotSupported
+--- PASS: TestSetTableRequestSerializeBaselineManageEntityNotSupported (0.00s)
+=== RUN   TestSetTableResponseDecode
+--- PASS: TestSetTableResponseDecode (0.00s)
+=== RUN   TestSetTableResponseSerialize
+--- PASS: TestSetTableResponseSerialize (0.00s)
+=== RUN   TestSetTableResponseZeroTICSerialize
+--- PASS: TestSetTableResponseZeroTICSerialize (0.00s)
+=== RUN   TestStartSoftwareDownloadRequestDecode
+--- PASS: TestStartSoftwareDownloadRequestDecode (0.00s)
+=== RUN   TestStartSoftwareDownloadRequestDecodeExtended
+--- PASS: TestStartSoftwareDownloadRequestDecodeExtended (0.00s)
+=== RUN   TestStartSoftwareDownloadRequestSerialize
+--- PASS: TestStartSoftwareDownloadRequestSerialize (0.00s)
+=== RUN   TestStartSoftwareDownloadRequestZeroTICSerialize
+--- PASS: TestStartSoftwareDownloadRequestZeroTICSerialize (0.00s)
+=== RUN   TestStartSoftwareDownloadRequestSerializeExtended
+--- PASS: TestStartSoftwareDownloadRequestSerializeExtended (0.00s)
+=== RUN   TestStartSoftwareDownloadResponseDecode
+--- PASS: TestStartSoftwareDownloadResponseDecode (0.00s)
+=== RUN   TestStartSoftwareDownloadResponseDecodeExtended
+--- PASS: TestStartSoftwareDownloadResponseDecodeExtended (0.00s)
+=== RUN   TestStartSoftwareDownloadResponseSerialize
+--- PASS: TestStartSoftwareDownloadResponseSerialize (0.00s)
+=== RUN   TestStartSoftwareDownloadResponseZeroTICSerialize
+--- PASS: TestStartSoftwareDownloadResponseZeroTICSerialize (0.00s)
+=== RUN   TestStartSoftwareDownloadResponseSerializeExtended
+--- PASS: TestStartSoftwareDownloadResponseSerializeExtended (0.00s)
+=== RUN   TestDownloadSectionRequestDecodeNoResponseExpected
+--- PASS: TestDownloadSectionRequestDecodeNoResponseExpected (0.00s)
+=== RUN   TestDownloadSectionRequestDecodeResponseExpected
+--- PASS: TestDownloadSectionRequestDecodeResponseExpected (0.00s)
+=== RUN   TestDownloadSectionRequestSerializeNoResponseExpected
+--- PASS: TestDownloadSectionRequestSerializeNoResponseExpected (0.00s)
+=== RUN   TestDownloadSectionRequestSerializeNoResponsePartialDataExpected
+--- PASS: TestDownloadSectionRequestSerializeNoResponsePartialDataExpected (0.00s)
+=== RUN   TestDownloadSectionRequestSerializeResponseExpectedMethod1
+--- PASS: TestDownloadSectionRequestSerializeResponseExpectedMethod1 (0.00s)
+=== RUN   TestDownloadSectionRequestSerializeResponseExpectedMethod2
+--- PASS: TestDownloadSectionRequestSerializeResponseExpectedMethod2 (0.00s)
+=== RUN   TestDownloadSectionRequestSerializeResponseExpectedZeroTICMethod1
+--- PASS: TestDownloadSectionRequestSerializeResponseExpectedZeroTICMethod1 (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestDecodeNoResponseExpected
+--- PASS: TestExtendedDownloadSectionRequestDecodeNoResponseExpected (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestDecodeResponseExpected
+--- PASS: TestExtendedDownloadSectionRequestDecodeResponseExpected (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestSerializeNoResponseExpected
+--- PASS: TestExtendedDownloadSectionRequestSerializeNoResponseExpected (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestSerializeResponseExpectedMethod1
+--- PASS: TestExtendedDownloadSectionRequestSerializeResponseExpectedMethod1 (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestSerializeResponseExpectedMethod2
+--- PASS: TestExtendedDownloadSectionRequestSerializeResponseExpectedMethod2 (0.00s)
+=== RUN   TestExtendedDownloadSectionRequestDecodeTruncated
+--- PASS: TestExtendedDownloadSectionRequestDecodeTruncated (0.00s)
+=== RUN   TestDownloadSectionResponseDecode
+--- PASS: TestDownloadSectionResponseDecode (0.00s)
+=== RUN   TestDownloadSectionResponseDecodeExtended
+--- PASS: TestDownloadSectionResponseDecodeExtended (0.00s)
+=== RUN   TestDownloadSectionResponseDecodeTruncatedExtended
+--- PASS: TestDownloadSectionResponseDecodeTruncatedExtended (0.00s)
+=== RUN   TestDownloadSectionResponseSerialize
+--- PASS: TestDownloadSectionResponseSerialize (0.00s)
+=== RUN   TestDownloadSectionResponseZeroTICSerialize
+--- PASS: TestDownloadSectionResponseZeroTICSerialize (0.00s)
+=== RUN   TestDownloadSectionResponseSerializeExtended
+--- PASS: TestDownloadSectionResponseSerializeExtended (0.00s)
+=== RUN   TestEndSoftwareDownloadRequestDecode
+--- PASS: TestEndSoftwareDownloadRequestDecode (0.00s)
+=== RUN   TestEndSoftwareDownloadRequestDecodeExtended
+--- PASS: TestEndSoftwareDownloadRequestDecodeExtended (0.00s)
+=== RUN   TestEndSoftwareDownloadRequestSerialize
+--- PASS: TestEndSoftwareDownloadRequestSerialize (0.00s)
+=== RUN   TestEndSoftwareDownloadRequestZeroTICSerialize
+--- PASS: TestEndSoftwareDownloadRequestZeroTICSerialize (0.00s)
+=== RUN   TestEndSoftwareDownloadRequestSerializeExtended
+--- PASS: TestEndSoftwareDownloadRequestSerializeExtended (0.00s)
+=== RUN   TestEndSoftwareDownloadResponseDecode
+--- PASS: TestEndSoftwareDownloadResponseDecode (0.00s)
+=== RUN   TestEndSoftwareDownloadResponseDecodeExtended
+--- PASS: TestEndSoftwareDownloadResponseDecodeExtended (0.00s)
+=== RUN   TestEndSoftwareDownloadResponseSerialize
+--- PASS: TestEndSoftwareDownloadResponseSerialize (0.00s)
+=== RUN   TestEndSoftwareDownloadResponseZeroTICSerialize
+--- PASS: TestEndSoftwareDownloadResponseZeroTICSerialize (0.00s)
+=== RUN   TestEndSoftwareDownloadResponseSerializeExtended
+--- PASS: TestEndSoftwareDownloadResponseSerializeExtended (0.00s)
+=== RUN   TestActivateSoftwareRequestDecode
+--- PASS: TestActivateSoftwareRequestDecode (0.00s)
+=== RUN   TestActivateSoftwareRequestDecodeExtended
+--- PASS: TestActivateSoftwareRequestDecodeExtended (0.00s)
+=== RUN   TestActivateSoftwareRequestSerialize
+--- PASS: TestActivateSoftwareRequestSerialize (0.00s)
+=== RUN   TestActivateSoftwareRequestZeroTICSerialize
+--- PASS: TestActivateSoftwareRequestZeroTICSerialize (0.00s)
+=== RUN   TestActivateSoftwareRequestSerializeExtended
+--- PASS: TestActivateSoftwareRequestSerializeExtended (0.00s)
+=== RUN   TestActivateSoftwareResponseDecode
+--- PASS: TestActivateSoftwareResponseDecode (0.00s)
+=== RUN   TestActivateSoftwareResponseDecodeExtended
+--- PASS: TestActivateSoftwareResponseDecodeExtended (0.00s)
+=== RUN   TestActivateSoftwareResponseSerialize
+--- PASS: TestActivateSoftwareResponseSerialize (0.00s)
+=== RUN   TestActivateSoftwareResponseZeroTICSerialize
+--- PASS: TestActivateSoftwareResponseZeroTICSerialize (0.00s)
+=== RUN   TestActivateSoftwareResponseSerializeExtended
+--- PASS: TestActivateSoftwareResponseSerializeExtended (0.00s)
+=== RUN   TestCommitSoftwareRequestDecode
+--- PASS: TestCommitSoftwareRequestDecode (0.00s)
+=== RUN   TestCommitSoftwareRequestDecodeExtended
+--- PASS: TestCommitSoftwareRequestDecodeExtended (0.00s)
+=== RUN   TestCommitSoftwareRequestSerialize
+--- PASS: TestCommitSoftwareRequestSerialize (0.00s)
+=== RUN   TestCommitSoftwareRequestZeroTICSerialize
+--- PASS: TestCommitSoftwareRequestZeroTICSerialize (0.00s)
+=== RUN   TestCommitSoftwareRequestSerializeExtended
+--- PASS: TestCommitSoftwareRequestSerializeExtended (0.00s)
+=== RUN   TestCommitSoftwareResponseDecode
+--- PASS: TestCommitSoftwareResponseDecode (0.00s)
+=== RUN   TestCommitSoftwareResponseDecodeExtended
+--- PASS: TestCommitSoftwareResponseDecodeExtended (0.00s)
+=== RUN   TestCommitSoftwareResponseSerialize
+--- PASS: TestCommitSoftwareResponseSerialize (0.00s)
+=== RUN   TestCommitSoftwareResponseZeroTICSerialize
+--- PASS: TestCommitSoftwareResponseZeroTICSerialize (0.00s)
+=== RUN   TestCommitSoftwareResponseSerializeExtended
+--- PASS: TestCommitSoftwareResponseSerializeExtended (0.00s)
+=== RUN   TestSynchronizeTimeRequestDecode
+--- PASS: TestSynchronizeTimeRequestDecode (0.00s)
+=== RUN   TestSynchronizeTimeRequestSerialize
+--- PASS: TestSynchronizeTimeRequestSerialize (0.00s)
+=== RUN   TestSynchronizeTimeRequestZeroTICSerialize
+--- PASS: TestSynchronizeTimeRequestZeroTICSerialize (0.00s)
+=== RUN   TestSynchronizeTimeResponseDecode
+--- PASS: TestSynchronizeTimeResponseDecode (0.00s)
+=== RUN   TestSynchronizeTimeResponseSerialize
+--- PASS: TestSynchronizeTimeResponseSerialize (0.00s)
+=== RUN   TestSynchronizeTimeResponseZeroTICSerialize
+--- PASS: TestSynchronizeTimeResponseZeroTICSerialize (0.00s)
+=== RUN   TestExtendedSynchronizeTimeRequestDecode
+--- PASS: TestExtendedSynchronizeTimeRequestDecode (0.00s)
+=== RUN   TestExtendedSynchronizeTimeRequestSerialize
+--- PASS: TestExtendedSynchronizeTimeRequestSerialize (0.00s)
+=== RUN   TestExtendedSynchronizeTimeResponseDecode
+--- PASS: TestExtendedSynchronizeTimeResponseDecode (0.00s)
+=== RUN   TestExtendedSynchronizeTimeResponseSerialize
+--- PASS: TestExtendedSynchronizeTimeResponseSerialize (0.00s)
+=== RUN   TestGenericTestResultDecode
+--- PASS: TestGenericTestResultDecode (0.00s)
+=== RUN   TestOpticalLineSupervisionTestResultDecode
+--- PASS: TestOpticalLineSupervisionTestResultDecode (0.00s)
+=== RUN   TestGenericTestResultSerialize
+--- PASS: TestGenericTestResultSerialize (0.00s)
+=== RUN   TestGenericTestResultNonZeroTICSerialize
+--- PASS: TestGenericTestResultNonZeroTICSerialize (0.00s)
+=== RUN   TestOpticalLineSupervisionTestResultSerialize
+--- PASS: TestOpticalLineSupervisionTestResultSerialize (0.00s)
+=== RUN   TestGenericTestRequestDecode
+--- PASS: TestGenericTestRequestDecode (0.00s)
+=== RUN   TestOpticalLineSupervisionTestRequestDecode
+--- PASS: TestOpticalLineSupervisionTestRequestDecode (0.00s)
+=== RUN   TestGenericTestRequestSerialize
+--- PASS: TestGenericTestRequestSerialize (0.00s)
+=== RUN   TestOpticalLineSupervisionTestRequestSerialize
+--- PASS: TestOpticalLineSupervisionTestRequestSerialize (0.00s)
+=== RUN   TestTestResponseDecode
+--- PASS: TestTestResponseDecode (0.00s)
+=== RUN   TestTestResponseSerialize
+--- PASS: TestTestResponseSerialize (0.00s)
+=== RUN   TestExtendedGenericTestResultDecode
+--- PASS: TestExtendedGenericTestResultDecode (0.00s)
+=== RUN   TestExtendedOpticalLineSupervisionTestResultDecode
+--- PASS: TestExtendedOpticalLineSupervisionTestResultDecode (0.00s)
+=== RUN   TestExtendedGenericTestResultSerialize
+--- PASS: TestExtendedGenericTestResultSerialize (0.00s)
+=== RUN   TestExtendedOpticalLineSupervisionTestResultSerialize
+--- PASS: TestExtendedOpticalLineSupervisionTestResultSerialize (0.00s)
+PASS
+coverage: 79.7% of statements
+ok  	github.com/cboling/omci	0.272s	coverage: 79.7% of statements
+?   	github.com/cboling/omci/examples/misc	[no test files]
+?   	github.com/cboling/omci/examples/sequences	[no test files]
+=== RUN   TestIntegerConstraintString
+--- PASS: TestIntegerConstraintString (0.00s)
+=== RUN   TestIntegerRangeConstraintString
+--- PASS: TestIntegerRangeConstraintString (0.00s)
+=== RUN   TestIntegerRangeConstraintStringMissingBoth
+--- PASS: TestIntegerRangeConstraintStringMissingBoth (0.00s)
+=== RUN   TestIntegerRangeConstraintStringNoMin
+--- PASS: TestIntegerRangeConstraintStringNoMin (0.00s)
+=== RUN   TestIntegerRangeConstraintStringNoMax
+--- PASS: TestIntegerRangeConstraintStringNoMax (0.00s)
+=== RUN   TestIntegerRangeConstraintStringPanicMinNoNumber
+--- PASS: TestIntegerRangeConstraintStringPanicMinNoNumber (0.00s)
+=== RUN   TestIntegerRangeConstraintStringPanicMaxNoNumber
+--- PASS: TestIntegerRangeConstraintStringPanicMaxNoNumber (0.00s)
+=== RUN   TestIntegerRangeConstraintStringPanicMaxLessThanMin
+--- PASS: TestIntegerRangeConstraintStringPanicMaxLessThanMin (0.00s)
+=== RUN   TestIntegerNonIntegerNotSupportedAndIsFalse
+--- PASS: TestIntegerNonIntegerNotSupportedAndIsFalse (0.00s)
+=== RUN   TestIntegerConstraintNilIfBlank
+--- PASS: TestIntegerConstraintNilIfBlank (0.00s)
+=== RUN   TestIntegerConstraintPanics
+--- PASS: TestIntegerConstraintPanics (0.00s)
+=== RUN   TestIntegerConstraintTypoPanics
+--- PASS: TestIntegerConstraintTypoPanics (0.00s)
+=== RUN   TestIntegerConstraintListString
+--- PASS: TestIntegerConstraintListString (0.00s)
+=== RUN   TestBitFieldConstraintString
+--- PASS: TestBitFieldConstraintString (0.00s)
+=== RUN   TestBitFieldConstraintNils
+--- PASS: TestBitFieldConstraintNils (0.00s)
+=== RUN   TestBitfieldConstraintPanics
+--- PASS: TestBitfieldConstraintPanics (0.00s)
+=== RUN   TestUnknownAttributeTypeConstraintIsNil
+--- PASS: TestUnknownAttributeTypeConstraintIsNil (0.00s)
+=== RUN   TestCounterAttributeTypeConstraintIsNil
+--- PASS: TestCounterAttributeTypeConstraintIsNil (0.00s)
+=== RUN   TestOctetsConstraintString
+--- PASS: TestOctetsConstraintString (0.00s)
+=== RUN   TestOctetsConstraintArray
+--- PASS: TestOctetsConstraintArray (0.00s)
+=== RUN   TestOctetsConstraintPanics
+--- PASS: TestOctetsConstraintPanics (0.00s)
+=== RUN   TestOctetsConstraintPanicsLengthPartial1
+--- PASS: TestOctetsConstraintPanicsLengthPartial1 (0.00s)
+=== RUN   TestOctetsConstraintPanicsLengthDangling
+--- PASS: TestOctetsConstraintPanicsLengthDangling (0.00s)
+=== RUN   TestOctetsConstraintPanicsLengthOnce
+--- PASS: TestOctetsConstraintPanicsLengthOnce (0.00s)
+=== RUN   TestOctetsConstraintPanics2
+--- PASS: TestOctetsConstraintPanics2 (0.00s)
+=== RUN   TestUintConstraint
+--- PASS: TestUintConstraint (0.00s)
+=== RUN   TestUint8Constraint
+--- PASS: TestUint8Constraint (0.00s)
+=== RUN   TestUint16Constraint
+--- PASS: TestUint16Constraint (0.00s)
+=== RUN   TestUint32Constraint
+--- PASS: TestUint32Constraint (0.00s)
+=== RUN   TestUint64Constraint
+--- PASS: TestUint64Constraint (0.00s)
+=== RUN   TestUintMaxMinConstraint
+--- PASS: TestUintMaxMinConstraint (0.00s)
+=== RUN   TestUintConstraintArray
+--- PASS: TestUintConstraintArray (0.00s)
+=== RUN   TestBitmapConstraint
+--- PASS: TestBitmapConstraint (0.00s)
+=== RUN   TestBitmapConstraintArray
+--- PASS: TestBitmapConstraintArray (0.00s)
+=== RUN   TestCreateConstraintByType
+--- PASS: TestCreateConstraintByType (0.00s)
+PASS
+coverage: 36.4% of statements
+ok  	github.com/cboling/omci/generated	0.037s	coverage: 36.4% of statements
+=== RUN   TestFrameFormatNotYetSupported
+--- PASS: TestFrameFormatNotYetSupported (0.00s)
+=== RUN   TestGetNextResponseOneFrameOnly
+--- PASS: TestGetNextResponseOneFrameOnly (0.00s)
+=== RUN   TestAllMessageTypes
+--- PASS: TestAllMessageTypes (0.39s)
+PASS
+coverage: 55.4% of statements
+ok  	github.com/cboling/omci/meframe	0.420s	coverage: 55.4% of statements
